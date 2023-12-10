@@ -1,0 +1,75 @@
+:root {
+	--morado: #883ae1;
+	--morado-claro: #e6d6fc;
+	--title-color: #20293a;
+	--text-color: #6c727f;
+	--hr-color: #e5eaf0;
+	--bg-color: #fafaf9;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: Sora;
+	background-color: var(--bg-color);
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 1rem;
+	box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem rgba(17, 23, 41, 0.05);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16.4rem;
+	padding: 1.6rem 1.6rem 2rem;
+	position: relative;
+	width: 36.8rem;
+}
+
+.card__title {
+	color: var(--title-color);
+	font-size: 1.8rem;
+	margin-bottom: 0.6rem;
+	margin-top: 1.6rem;
+}
+
+img {
+	border-radius: 1rem;
+	width: 100%;
+}
+.card__label {
+	background-color: var(--morado-claro);
+	border-radius: 1.5rem;
+	color: var(--morado);
+	display: inline-block;
+	font-weight: 700;
+	margin-top: 1.6rem;
+	padding: 0.6rem 1.6rem;
+}
+
+.card_detail {
+	color: var(--text-color);
+	font-size: 1.4rem;
+}
+
+hr {
+	background-color: var(--hr-color);
+	border: none;
+	height: 0.2rem;
+	left: 0;
+	position: absolute;
+	width: 36.8rem;
+}
+
+.author {
+	color: var(--text-color);
+	display: inline-block;
+	font-size: 1.2rem;
+	padding-top: 2.5rem;
+}
